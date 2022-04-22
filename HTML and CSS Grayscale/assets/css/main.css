@@ -1,0 +1,188 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Times New Roman', Times, serif;
+}
+#background-image1{
+    width: 100%;
+    height: 100vh;
+    background-image: url(https://raw.githubusercontent.com/StartBootstrap/startbootstrap-grayscale/master/dist/assets/img/bg-masthead.jpg);
+    background-size: 100%;
+    background-position: center;
+}
+nav{
+    position: fixed;
+    width: 100%;
+    height: 50px;
+    line-height: 50px;
+}
+.Logo{
+    color: #C4C4C4;
+    width: 20%;
+    float: left;
+    text-align: center;
+}
+.menu{
+    float: right;
+}
+.menu li a{
+    text-decoration: none;
+    color: #C4C4C4;
+}
+.menu li{
+    display: inline;
+    margin: 5px 15px;
+    text-align: center;
+}
+.ccc{
+font-weight: 100px;
+}
+.bbb{
+    text-align: center;
+    font-size: 30px;
+    padding-top: 20%;
+    color:#A9A9A9
+}
+.btn{
+    text-align: center;
+    border: none;
+    cursor: pointer;
+    padding: 17.5px 25px;
+    margin-top: 50px;
+    font-size: 20px;
+    background-color: #64A19D;
+    position: relative;
+}
+#background-image2{
+    width: 100%;
+    height: 100%;
+    background-repeat: no-repeat;
+    background-color:black;
+    background-size: 100%;
+    background-position: center;
+}
+.bbbb{
+    background-color: black;
+    color: #868676;
+    text-align: center;
+    font-size: 30px;
+    padding-top: 20%;
+    opacity: 0.9;
+}
+#background-image3{
+    background-color: white;
+}
+.right{
+    float: right;
+    padding-top: 180px;
+    padding-right: 160px;
+    font-size: 20px;
+    text-align: center;
+    color: grey;
+    text-align: center;
+    color: #517289;
+}
+.left img{
+    float: left;
+    align-self: start;
+    width: 60%;
+    height: 60%;
+    background-color: white;
+    padding-top: 200px;
+    padding:30px;
+    padding-left: 100px;
+    cursor: pointer;
+}
+ #background-image4 {
+    text-align: center;
+    padding-left: 10px;
+    padding-right: 10px;
+    width: 20%;
+    padding-left: 60px;
+    } 
+ .row1 {
+    clear: both;
+    display: table;
+    }
+#background-image5{
+    background-image: url(https://startbootstrap.github.io/startbootstrap-grayscale/assets/img/bg-signup.jpg);
+    width: 100%;
+    height: 100vh;
+    background-size: 100%;
+    background-position: center;
+}
+
+.icon{
+    color: #FFFFFF;
+    text-align: center;
+    border: none;
+    cursor: pointer;
+    padding: 17.5px 25px;
+    margin-top: 50px;
+    font-size: 25px;
+    position: relative;
+    padding-top: 100px;
+}
+#background-image6{
+    background-color: black;
+    width: 100%;
+    height: 100vh;
+    background-size: 100%;
+    background-position: center;
+}
+#background-image6{
+    background-color: black;
+    height: 700px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    gap: 10px;
+    padding-left: 250px;
+    padding-top: 160px;
+    opacity: 1;
+}
+.contact{
+    background-color: white;
+    width: 250px;
+    height: 150px;
+    display: inline-flexbox;
+    text-align: center;
+    padding-top:20px ;
+}
+.contact1{
+    background-color: white;
+    width: 250px;
+    height: 150px;
+    display: inline-flexbox;
+    text-align: center;
+    padding-top:20px ;
+}
+.contact2{
+    background-color: white;
+    width: 250px;
+    height: 150px;
+    display: inline-flexbox;
+    text-align: center;
+    padding-top:20px ;
+}
+.socials{
+    width: 100%;
+    height: 200px;
+    font-size: 50px;
+    text-align: center;
+    color: #1A1A1A;
+    background-color: black;
+    padding-right: 350px;
+    padding-top: 20px;
+}
+.end{
+    text-align: center;
+    color: #4E6C80;
+    height: 100px;
+    font-size: 20px;
+    padding-left: 270px;
+}
