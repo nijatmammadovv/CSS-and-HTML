@@ -1,0 +1,161 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    background-color: #F0F2F5;
+
+}
+.ortafon{
+    height: 550px;
+    width: 33%;
+    background-color:white;
+    margin-left: 415px;
+    margin-top: 20px;
+    border: 1px solid silver;
+    border-radius: 15px;
+}
+.logo{
+    color: #1877F2;
+    font-family: Helvetica, Arial, sans-serif;
+    text-align: center;
+    font-size: 30px;
+    font-weight: 5px;
+    font-weight: bold;
+    margin: 15px;
+    margin-right: 6%;
+    user-select: none;
+}
+.text{
+    font-size: 28px;
+    margin-top: 10px;
+    font-weight: bold;
+    text-align: center;
+}
+.text1{
+    text-align: center;
+    color: silver;
+    font-size: 17px;
+    padding: 5px;
+}
+.account input{
+    margin-top: 18px;
+    height: 38px;
+    width: 190px;
+    padding-left: 10px;
+    font-size: 15px;
+    border: 1px solid silver;
+    border-radius: 4px;
+    margin-right:auto;
+}
+.account{
+    text-align: center;
+}
+.account .Surname{
+    margin-left: 15px;
+    margin-right: 5px;
+}
+.account .email,
+.account .password{
+    margin-top: 10px;
+    width: 399px;
+}
+.birth{
+    margin-top: 15px;
+    padding-right: 324px;
+    color: silver;
+}
+.date 
+{
+    margin-left: 24px;
+    gap: 5px;
+    margin-top: 7px;
+    margin-bottom: 15px;
+
+}
+.gen{
+    margin-left: 22px;
+    margin-bottom: 7px;
+    color: silver;
+}
+.gender{
+    text-align: center;
+    
+}
+.gender1{
+    border-style:groove;
+    display: inline-block;
+    font-size: 16px;
+    width: 29%;
+    line-height: 5vh; 
+    border: 1px solid silver;
+    border-radius: 4px;
+}
+.gender2{
+    border-style:groove;
+    display: inline-block;
+    font-size: 16px;
+    width: 29%;
+    line-height: 5vh; 
+    border: 1px solid silver;
+    border-radius: 4px;
+    margin-left: 7px;
+}
+.gender3{
+    border-style:groove;
+    display: inline-block;
+    font-size: 16px;
+    width: 29%;
+    line-height: 5vh; 
+    border: 1px solid silver;
+    border-radius: 4px;
+    margin-left: 7px;
+    padding-right: 25px;
+
+}
+.paragraf{
+    margin-top: 12px;
+    font-size: 12px;
+    text-decoration: none;
+}
+.paragraf1,
+.paragraf2,
+.paragraf3{
+    text-decoration: none;
+}
+.button{
+    height: 37px;
+    width: 200px;
+    font-size: 18px;
+    color: #fff;
+    background-color: #00A000;
+    border: solid 1px;
+    cursor: pointer;
+    outline: none;
+    border-radius: 11px;
+    font-weight: bold;
+    transition: .5s;
+    margin-left: 129px;
+    margin-top: 21px;
+}
+.button:hover {background-color: red}
+
+.button:active {
+  background-color: #8e573e;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+
+}
+.footer{
+    margin-top: 41px;
+    margin-left: 25px;
+    font-size: 18px;
+    text-align: center;
+    cursor: pointer;
+}
+.footer1{
+    text-decoration: none;
+}

@@ -1,0 +1,157 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Times New Roman', Times, serif;
+    background-color: blue;
+}
+body:hover{
+    background-color: blue;
+}
+.settings{
+    font-size: 40px;
+    width: 75px;
+    padding: 5px;
+    border-radius: 10px 0px 0px 10px;
+    background-color: silver;
+    border: 1px solid;
+    position: fixed;
+    right: 0;
+    z-index: 10;
+    top: 100px;
+    color: black;
+    box-shadow: 10px 0px 5px 5px silver;
+}
+.settings i{
+    animation: firlan 2s linear infinite;
+}
+@keyframes firlan {
+    0%{
+        transform: rotate(0deg);
+    }
+    100%{
+        transform: rotate(180deg);
+    }
+    
+}
+.firstpage{
+    background-color: blue;
+    width: 100%;
+    height: 100vh;
+    background-size: 100%;
+    background-position: center;
+}
+
+nav{
+    position: fixed;
+    width: 100%;
+    height: 50px;
+    line-height: 50px;
+}
+nav .logo h1{
+    padding-left: 20px;
+    color: white;
+    margin-top: 5px;
+}
+.logo{
+    color: #C4C4C4;
+    width: 20%;
+    float: left;
+    text-align: center;
+}
+.menu{
+    float: right;
+}
+.menu li a{
+    font-size: 18px;
+    text-decoration: none;
+    color: #C4C4C4;
+}
+.menu li a:hover{
+    background-color: red;
+}
+.menu li{
+    display: inline;
+    margin: 5px 15px;
+    text-align: center;
+}
+.text1{
+    display: inline-block;
+    padding: 20px;
+    width: 40%;
+    font-size: 40px;
+    color: white;
+    margin-left: 102px;
+    justify-content: center;
+    margin-top: -190px;
+    
+}
+.text2{
+    margin: 10px;
+    margin-top: 5px;
+    width:37% ;
+    font-size: 20px;
+    margin-left: 122px;
+    justify-content: center;
+    padding-top: 70px;
+    color: #8378E1;
+}
+.page1{
+    width: 35%;
+    height: 30vh;
+    margin-left: 720px;
+    margin-top: 30px;
+    padding-top: 210px;
+}
+.buttons{
+    display: inline-block;
+    background-color: #00BA94;
+    font-size: 15px;
+    color: white;
+    width: 130px;
+    height: 40px;
+    border-radius: 5px;
+    margin-left: 120px;
+    justify-content: center;
+    margin-top: 5px;
+    cursor: pointer;
+}
+.buttons:hover{
+    background-color: red;
+}
+.button{
+    display: inline-block;
+    background-color: #00BA94;
+    font-size: 15px;
+    color: white;
+    width: 130px;
+    height: 40px;
+    border-radius: 5px;
+    margin-left: 100px;
+    justify-content: center;
+    margin-right: 90px;
+    margin-top: 5px;
+    cursor: pointer;
+}
+.button:hover{
+    background-color: darkorange;
+}
+.link{
+    margin-left: 300px;
+    justify-content: center;
+    margin-top: -30px;
+    text-decoration: none;
+    color: white;
+    font-size: bold;
+}
+.secondpage{
+    background-color: white;
+    width: 100%;
+    height: 100vh;
+}
+.icon1{
+    width: 40%;
+    height: 5vh;
+}
